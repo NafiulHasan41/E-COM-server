@@ -1,0 +1,53 @@
+[
+    {
+      "productName": "Wireless Bluetooth Headphones",
+      "productImage": "https://media.wired.com/photos/5f52a44bb555bc55dbcdf5a8/master/pass/Gear-Wireless-Bluetooth-1226031847.jpg",
+      "description": "High-quality wireless Bluetooth headphones with noise-cancellation and up to 20 hours of battery life.",
+      "price": 89.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "10:30:00"
+    },
+    {
+      "productName": "Gaming Laptop",
+      "productImage": "https://www.pcworld.com/wp-content/uploads/2024/03/alienware-gaming-laptop.jpg?quality=50&strip=all",
+      "description": "Powerful gaming laptop with a 15.6-inch display, 16GB RAM, and NVIDIA GTX 1660Ti graphics card.",
+      "price": 1299.99,
+      "category": "Computers",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "11:15:00"
+    },
+    {
+      "productName": "Smart Fitness Tracker",
+      "productImage": "https://cdn.thewirecutter.com/wp-content/media/2023/06/fitnesstrackers-2048px-09826.jpg",
+      "description": "Track your fitness activities with this smart fitness tracker, featuring heart rate monitoring, GPS, and water resistance.",
+      "price": 49.99,
+      "category": "Wearables",
+      "ratings": 4.3,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "12:00:00"
+    },
+    {
+      "productName": "Espresso Coffee Machine",
+      "productImage": "https://images.pexels.com/photos/302894/pexels-photo-302894.jpeg?cs=srgb&dl=pexels-chevanon-302894.jpg&fm=jpg",
+      "description": "Brew the perfect cup of coffee with this espresso machine, featuring a 15-bar pressure pump and milk frother.",
+      "price": 199.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "13:45:00"
+    },
+    {
+      "productName": "Portable Projector",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesxk1uQPCzj08TvOfIKnpisKvWHebdArgSA&s",
+      "description": "Compact and portable projector with 1080p resolution, suitable for home entertainment and presentations.",
+      "price": 249.99,
+      "category": "Home Entertainment",
+      "ratings": 4.4,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "14:30:00"
+    }
+  ]
+  

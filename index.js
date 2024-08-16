@@ -34,8 +34,18 @@ async function run() {
     try {
       // Connect the client to the server	(optional starting in v4.7)
     //   await client.connect();
-    const userCollection = client.db("productsDB").collection("Products");
+    const productsCollection = client.db("productsDB").collection("Products");
 
+    
+    // getting all the products with different approach
+    app.get("/products", async (req, res)=>{
+
+        const allProducts = await productsCollection.find().toArray();
+        console.log(allProducts);
+
+
+    })
+   
       
 
 
