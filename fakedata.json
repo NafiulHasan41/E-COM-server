@@ -1,5 +1,5 @@
 [
-    {
+  {
       "productName": "Wireless Bluetooth Headphones",
       "productImage": "https://media.wired.com/photos/5f52a44bb555bc55dbcdf5a8/master/pass/Gear-Wireless-Bluetooth-1226031847.jpg",
       "description": "High-quality wireless Bluetooth headphones with noise-cancellation and up to 20 hours of battery life.",
@@ -8,9 +8,9 @@
       "ratings": 4.5,
       "productCreationDate": "2024-08-16",
       "productCreationTime": "10:30:00",
-      "brandName": "Sony"
-    },
-    {
+      "brandName": "Apple"
+  },
+  {
       "productName": "Gaming Laptop",
       "productImage": "https://www.pcworld.com/wp-content/uploads/2024/03/alienware-gaming-laptop.jpg?quality=50&strip=all",
       "description": "Powerful gaming laptop with a 15.6-inch display, 16GB RAM, and NVIDIA GTX 1660Ti graphics card.",
@@ -20,8 +20,8 @@
       "productCreationDate": "2024-08-16",
       "productCreationTime": "11:15:00",
       "brandName": "Alienware"
-    },
-    {
+  },
+  {
       "productName": "Smart Fitness Tracker",
       "productImage": "https://cdn.thewirecutter.com/wp-content/media/2023/06/fitnesstrackers-2048px-09826.jpg",
       "description": "Track your fitness activities with this smart fitness tracker, featuring heart rate monitoring, GPS, and water resistance.",
@@ -30,20 +30,20 @@
       "ratings": 4.3,
       "productCreationDate": "2024-08-16",
       "productCreationTime": "12:00:00",
-      "brandName": "Fitbit"
-    },
-    {
+      "brandName": "Nike"
+  },
+  {
       "productName": "Espresso Coffee Machine",
       "productImage": "https://images.pexels.com/photos/302894/pexels-photo-302894.jpeg?cs=srgb&dl=pexels-chevanon-302894.jpg&fm=jpg",
       "description": "Brew the perfect cup of coffee with this espresso machine, featuring a 15-bar pressure pump and milk frother.",
       "price": 199.99,
-      "category": "Kitchen Appliances",
+      "category": "Home Entertainment",
       "ratings": 4.6,
       "productCreationDate": "2024-08-16",
       "productCreationTime": "13:45:00",
-      "brandName": "De'Longhi"
-    },
-    {
+      "brandName": "Samsung"
+  },
+  {
       "productName": "Portable Projector",
       "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesxk1uQPCzj08TvOfIKnpisKvWHebdArgSA&s",
       "description": "Compact and portable projector with 1080p resolution, suitable for home entertainment and presentations.",
@@ -52,7 +52,336 @@
       "ratings": 4.4,
       "productCreationDate": "2024-08-16",
       "productCreationTime": "14:30:00",
-      "brandName": "Anker"
-    }
-  ]
-  
+      "brandName": "Toyota"
+  },
+  {
+      "productName": "Smartphone",
+      "productImage": "https://example.com/smartphone.jpg",
+      "description": "Latest smartphone with cutting-edge technology and sleek design.",
+      "price": 999.99,
+      "category": "Phones",
+      "ratings": 4.8,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "15:00:00",
+      "brandName": "Apple"
+  },
+  {
+      "productName": "Gaming Desktop",
+      "productImage": "https://example.com/gaming-desktop.jpg",
+      "description": "High-performance gaming desktop with powerful graphics and fast processing.",
+      "price": 1499.99,
+      "category": "Computers",
+      "ratings": 4.9,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "15:30:00",
+      "brandName": "Alienware"
+  },
+  {
+      "productName": "Smartwatch",
+      "productImage": "https://example.com/smartwatch.jpg",
+      "description": "Advanced smartwatch with fitness tracking and customizable watch faces.",
+      "price": 299.99,
+      "category": "Wearables",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "16:00:00",
+      "brandName": "Nike"
+  },
+  {
+      "productName": "4K TV",
+      "productImage": "https://example.com/4k-tv.jpg",
+      "description": "Ultra HD 4K TV with stunning picture quality and smart features.",
+      "price": 799.99,
+      "category": "Home Entertainment",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "16:30:00",
+      "brandName": "Samsung"
+  },
+  {
+      "productName": "Wireless Earbuds",
+      "productImage": "https://example.com/wireless-earbuds.jpg",
+      "description": "Compact wireless earbuds with excellent sound quality and long battery life.",
+      "price": 149.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "17:00:00",
+      "brandName": "Toyota"
+  },
+  {
+      "productName": "Laptop",
+      "productImage": "https://example.com/laptop.jpg",
+      "description": "Lightweight laptop with powerful performance and long battery life.",
+      "price": 1099.99,
+      "category": "Computers",
+      "ratings": 4.8,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "17:30:00",
+      "brandName": "Apple"
+  },
+  {
+      "productName": "Gaming Monitor",
+      "productImage": "https://example.com/gaming-monitor.jpg",
+      "description": "High-refresh-rate gaming monitor with stunning visuals and low latency.",
+      "price": 399.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "18:00:00",
+      "brandName": "Alienware"
+  },
+  {
+      "productName": "Fitness Band",
+      "productImage": "https://example.com/fitness-band.jpg",
+      "description": "Stylish fitness band with activity tracking and heart rate monitoring.",
+      "price": 79.99,
+      "category": "Wearables",
+      "ratings": 4.4,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "18:30:00",
+      "brandName": "Nike"
+  },
+  {
+      "productName": "Soundbar",
+      "productImage": "https://example.com/soundbar.jpg",
+      "description": "High-quality soundbar with immersive audio and wireless connectivity.",
+      "price": 299.99,
+      "category": "Home Entertainment",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "19:00:00",
+      "brandName": "Samsung"
+  },
+  {
+      "productName": "Smart Speaker",
+      "productImage": "https://example.com/smart-speaker.jpg",
+      "description": "Voice-controlled smart speaker with excellent sound quality.",
+      "price": 199.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "19:30:00",
+      "brandName": "Toyota"
+  },
+  {
+      "productName": "Tablet",
+      "productImage": "https://example.com/tablet.jpg",
+      "description": "Versatile tablet with high-resolution display and powerful performance.",
+      "price": 599.99,
+      "category": "Computers",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "20:00:00",
+      "brandName": "Apple"
+  },
+  {
+      "productName": "Gaming Mouse",
+      "productImage": "https://example.com/gaming-mouse.jpg",
+      "description": "Precision gaming mouse with customizable buttons and RGB lighting.",
+      "price": 79.99,
+      "category": "Electronics",
+      "ratings": 4.8,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "20:30:00",
+      "brandName": "Alienware"
+  },
+  {
+      "productName": "Smart Glasses",
+      "productImage": "https://example.com/smart-glasses.jpg",
+      "description": "Innovative smart glasses with augmented reality features.",
+      "price": 399.99,
+      "category": "Wearables",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "21:00:00",
+      "brandName": "Nike"
+  },
+  {
+      "productName": "Home Theater System",
+      "productImage": "https://example.com/home-theater.jpg",
+      "description": "Complete home theater system with surround sound and 4K support.",
+      "price": 999.99,
+      "category": "Home Entertainment",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "21:30:00",
+      "brandName": "Samsung"
+  },
+  {
+      "productName": "Wireless Charger",
+      "productImage": "https://example.com/wireless-charger.jpg",
+      "description": "Fast wireless charger compatible with multiple devices.",
+      "price": 49.99,
+      "category": "Electronics",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "22:00:00",
+      "brandName": "Toyota"
+  },
+  {
+      "productName": "Desktop Computer",
+      "productImage": "https://example.com/desktop-computer.jpg",
+      "description": "Powerful desktop computer with high-end specifications.",
+      "price": 1299.99,
+      "category": "Computers",
+      "ratings": 4.8,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "22:30:00",
+      "brandName": "Apple"
+  },
+  {
+      "productName": "Gaming Keyboard",
+      "productImage": "https://example.com/gaming-keyboard.jpg",
+      "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+      "price": 129.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "23:00:00",
+      "brandName": "Alienware"
+  },
+  {
+      "productName": "Smart Ring",
+      "productImage": "https://example.com/smart-ring.jpg",
+      "description": "Innovative smart ring with fitness tracking and notifications.",
+      "price": 199.99,
+      "category": "Wearables",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "23:30:00",
+      "brandName": "Nike"
+  },
+  {
+      "productName": "Streaming Device",
+      "productImage": "https://example.com/streaming-device.jpg",
+      "description": "Compact streaming device with 4K support and voice control.",
+      "price": 99.99,
+      "category": "Home Entertainment",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "00:00:00",
+      "brandName": "Samsung"
+  },
+  {
+      "productName": "Bluetooth Speaker",
+      "productImage": "https://example.com/bluetooth-speaker.jpg",
+      "description": "Portable Bluetooth speaker with excellent sound quality and long battery life.",
+      "price": 149.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "00:30:00",
+      "brandName": "Toyota"
+  },
+  {
+      "productName": "Convertible Laptop",
+      "productImage": "https://example.com/convertible-laptop.jpg",
+      "description": "Versatile convertible laptop with touch screen and 2-in-1 design.",
+      "price": 1199.99,
+      "category": "Computers",
+      "ratings": 4.8,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "01:00:00",
+      "brandName": "Apple"
+  },
+  {
+      "productName": "Gaming Headset",
+      "productImage": "https://example.com/gaming-headset.jpg",
+      "description": "High-quality gaming headset with surround sound and noise-canceling microphone.",
+      "price": 99.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "01:30:00",
+      "brandName": "Alienware"
+  },
+  {
+      "productName": "Smart Shoes",
+      "productImage": "https://example.com/smart-shoes.jpg",
+      "description": "Innovative smart shoes with fitness tracking and customizable features.",
+      "price": 199.99,
+      "category": "Wearables",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "02:00:00",
+      "brandName": "Nike"
+  },
+  {
+      "productName": "Home Security Camera",
+      "productImage": "https://example.com/home-security-camera.jpg",
+      "description": "High-definition home security camera with night vision and motion detection.",
+      "price": 199.99,
+      "category": "Home Entertainment",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "02:30:00",
+      "brandName": "Samsung"
+  },
+  {
+      "productName": "Smart Thermostat",
+      "productImage": "https://example.com/smart-thermostat.jpg",
+      "description": "Energy-efficient smart thermostat with remote control and scheduling features.",
+      "price": 249.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "03:00:00",
+      "brandName": "Toyota"
+  },
+  {
+      "productName": "All-in-One Computer",
+      "productImage": "https://example.com/all-in-one-computer.jpg",
+      "description": "Sleek all-in-one computer with powerful performance and large display.",
+      "price": 1399.99,
+      "category": "Computers",
+      "ratings": 4.8,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "03:30:00",
+      "brandName": "Apple"
+  },
+  {
+      "productName": "Gaming Chair",
+      "productImage": "https://example.com/gaming-chair.jpg",
+      "description": "Ergonomic gaming chair with adjustable features and comfortable design.",
+      "price": 299.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "04:00:00",
+      "brandName": "Alienware"
+  },
+  {
+      "productName": "Smart Jacket",
+      "productImage": "https://example.com/smart-jacket.jpg",
+      "description": "Stylish smart jacket with built-in heating and fitness tracking.",
+      "price": 249.99,
+      "category": "Wearables",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "04:30:00",
+      "brandName": "Nike"
+  },
+  {
+      "productName": "Home Automation System",
+      "productImage": "https://example.com/home-automation.jpg",
+      "description": "Comprehensive home automation system with smart control and monitoring.",
+      "price": 499.99,
+      "category": "Home Entertainment",
+      "ratings": 4.6,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "05:00:00",
+      "brandName": "Samsung"
+  },
+  {
+      "productName": "Smart Light Bulb",
+      "productImage": "https://example.com/smart-light-bulb.jpg",
+      "description": "Energy-efficient smart light bulb with remote control and scheduling features.",
+      "price": 29.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDate": "2024-08-16",
+      "productCreationTime": "05:30:00",
+      "brandName": "Toyota"
+  }
+]

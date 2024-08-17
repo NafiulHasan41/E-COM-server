@@ -11,7 +11,7 @@ const port = process.env.PORT || 4000;
 
 // middleware
 const corsOptions = {
-    origin: ['http://localhost:5173', 'http://localhost:5174'],
+    origin: ['http://localhost:5173', 'http://localhost:5174',"https://e-com-online-product.netlify.app"],
   }
   app.use(cors(corsOptions));
   app.use(express.json());
