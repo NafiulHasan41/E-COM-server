@@ -7,7 +7,8 @@
       "category": "Electronics",
       "ratings": 4.5,
       "productCreationDate": "2024-08-16",
-      "productCreationTime": "10:30:00"
+      "productCreationTime": "10:30:00",
+      "brandName": "Sony"
     },
     {
       "productName": "Gaming Laptop",
@@ -17,7 +18,8 @@
       "category": "Computers",
       "ratings": 4.7,
       "productCreationDate": "2024-08-16",
-      "productCreationTime": "11:15:00"
+      "productCreationTime": "11:15:00",
+      "brandName": "Alienware"
     },
     {
       "productName": "Smart Fitness Tracker",
@@ -27,7 +29,8 @@
       "category": "Wearables",
       "ratings": 4.3,
       "productCreationDate": "2024-08-16",
-      "productCreationTime": "12:00:00"
+      "productCreationTime": "12:00:00",
+      "brandName": "Fitbit"
     },
     {
       "productName": "Espresso Coffee Machine",
@@ -37,7 +40,8 @@
       "category": "Kitchen Appliances",
       "ratings": 4.6,
       "productCreationDate": "2024-08-16",
-      "productCreationTime": "13:45:00"
+      "productCreationTime": "13:45:00",
+      "brandName": "De'Longhi"
     },
     {
       "productName": "Portable Projector",
@@ -47,7 +51,8 @@
       "category": "Home Entertainment",
       "ratings": 4.4,
       "productCreationDate": "2024-08-16",
-      "productCreationTime": "14:30:00"
+      "productCreationTime": "14:30:00",
+      "brandName": "Anker"
     }
   ]
   

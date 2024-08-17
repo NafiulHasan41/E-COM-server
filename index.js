@@ -39,10 +39,16 @@ async function run() {
     
     // getting all the products with different approach
     app.get("/products", async (req, res)=>{
+        const size = parseInt(req.query.limit)
+        const page = parseInt(req.query.page) - 1
+       
+
+        
 
         const allProducts = await productsCollection.find().toArray();
         console.log(allProducts);
-
+        res.send(allProducts);
+        
 
     })
    
