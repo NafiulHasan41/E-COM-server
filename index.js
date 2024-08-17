@@ -47,7 +47,7 @@ async function run() {
         const maxPrice = parseInt(req.query.maxPrice);
         const category = req.query.category;
         const brand = req.query.brand;
-        console.log(size, page, sort, search, minPrice, maxPrice, category, brand);
+      
 
         let query = {
             productName: { $regex:'^' + search, $options: 'i' },
