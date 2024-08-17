@@ -39,24 +39,67 @@ async function run() {
     
     // getting all the products with different approach
     app.get("/products", async (req, res)=>{
-        const size = parseInt(req.query.limit)
-        const page = parseInt(req.query.page) - 1
+        const size = parseInt(req.query.limit);
+        const page = parseInt(req.query.page) - 1;
+        const sort = req.query.sort;
+        const search = req.query.search;
+        const minPrice = parseInt(req.query.minPrice);
+        const maxPrice = parseInt(req.query.maxPrice);
+        const category = req.query.category;
+        const brand = req.query.brand;
+        console.log(size, page, sort, search, minPrice, maxPrice, category, brand);
+
+        let query = {
+            productName: { $regex:'^' + search, $options: 'i' },
+        }
+        if(minPrice && maxPrice){
+            query = {
+                ...query,
+                price: {$gte: minPrice, $lte: maxPrice}
+            }
+        }
+        if(category){
+            query = {
+                ...query,
+                category: category
+            }
+        }
+        if(brand){
+            query = {
+                ...query,
+                brandName: brand
+            }
+        }
+        let options = {}
+        if(sort){
+            if(sort === 'new')
+            {
+              options = {sort: {productCreationDate: -1}}
+            }
+            else
+            {
+                options = { sort: { price: sort === 'asc' ? 1 : -1 } }
+            }
+
+        }
+
+        const result = await productsCollection.find(query, options).skip(size * page).limit(size).toArray();
+
+
+
        
-
-        
-
-        const allProducts = await productsCollection.find().toArray();
-        console.log(allProducts);
-        res.send(allProducts);
+        res.send(result);
         
 
     })
+
+  
    
       
 
 
-      await client.db("admin").command({ ping: 1 });
-      console.log("Pinged your deployment. You successfully connected to MongoDB!");
+    //   await client.db("admin").command({ ping: 1 });
+    //   console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } finally {
       // Ensures that the client will close when you finish/error
     //   await client.close();
