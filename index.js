@@ -50,7 +50,7 @@ async function run() {
       
 
         let query = {
-            productName: { $regex:'^' + search, $options: 'i' },
+            productName: { $regex: '.*' + search + '.*', $options: 'i' },
         }
         if(minPrice && maxPrice){
             query = {
@@ -103,7 +103,7 @@ async function run() {
         const brand = req.query.brand;
 
         let query = {
-            productName: { $regex:'^' + search, $options: 'i' },
+            productName: { $regex: '.*' + search + '.*', $options: 'i' },
         }
         if(minPrice && maxPrice){
             query = {
